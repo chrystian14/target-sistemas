@@ -198,7 +198,8 @@ Resolução em código comentado se encontra em [5_distances/script.js](5_distan
 
 ```js
 /*
-  O ponto de cruzamento, considerando ribeirão preto como referência (125km), pode ser descrito pelas seguintes equações horárias:
+  O ponto de cruzamento, considerando ribeirão preto como referência (125km), pode ser descrito
+  pelas seguintes equações horárias:
   - x1 -> carro (sai de ribeirao, portanto a velocidade é positiva a partir da referência):
   - x2 ->caminhão (sai de barretos, portanto a velocidade é negativa a partir da referência)
 */
@@ -206,7 +207,8 @@ x1 = 0 + v1 * t;
 x2 = 125 - v2 * t;
 
 /*
-  Como o carro tem 3 pedágios de 5min cada, podemos calcular o tempo de viagem sem os obstáculos e depois com os obstáculos:
+  Como o carro tem 3 pedágios de 5min cada, podemos calcular o tempo de viagem sem os obstáculos
+  e depois com os obstáculos:
     t_sem_obstaculos = distancia / velocidade-carro
     t_com_obstaculos = t_sem_obstaculos + t_cobranca_de_pedagio
 */
